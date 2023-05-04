@@ -30,6 +30,7 @@ def wishme():
 def takecommand():
     
     #takes mike input from user and returns string output
+    #Uses speach recognition
     
     r = sr.Recognizer()                                      
     with sr.Microphone() as source:
